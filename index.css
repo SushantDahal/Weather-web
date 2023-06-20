@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: grey;
+}
+.container {
+  width: 350px;
+  background-color: blue;
+  text-align: center;
+  margin: 10px auto 20px auto;
+  border-radius: 10px;
+  padding: 10px 20px 0 20px;
+  box-shadow: 20px 20px 90px white;
+}
+.search {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: blue;
+}
+::placeholder {
+  color: rgb(139, 135, 135);
+  font-size: 14px;
+  font-family: monospace;
+}
+
+.search input {
+  border-radius: 20px;
+  color: black;
+  padding: 10px 22px;
+  border: none;
+  font-size: 1rem;
+  outline: none;
+  flex: 1;
+}
+
+.search button {
+  border-radius: 50%;
+  padding: 3px;
+  margin-left: 8px;
+  border: none;
+}
+.search button:hover {
+  color: white;
+  background-color: rgb(154, 154, 238);
+}
+.search i {
+  font-size: 2rem;
+  padding: 10px;
+}
+.weather {
+  color: #fff;
+}
+.weather h1 {
+  margin-top: 10px;
+}
+.weather h2 {
+  font-size: 3rem;
+}
+#cool {
+  padding: 0 20px;
+}
+.weather .icon {
+  margin-top: 30px;
+  width: 280px;
+}
+.details .col i {
+  font-size: 40px;
+  padding-top: 10px;
+}
+.col {
+  border-top: 0.5px solid beige;
+  border-bottom: 0.5px solid beige;
+  border-radius: 20px;
+  padding: 10px;
+  box-shadow: 10px 10px 80px white;
+}
+.details {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+.details p {
+  margin-top: 10px;
+  font-family: bold;
+  font-size: 20px;
+  color: black;
+}
